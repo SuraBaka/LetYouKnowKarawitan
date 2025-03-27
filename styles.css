@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+.header {
+    background: url('/images/karawitan.jpg') no-repeat center center;
+    background-size: cover;
+    height: 33vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.textPenjelasan{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.header h1 {
+    background: #242939; 
+    padding: 20px;
+    color: #7a574c;
+    border-radius: 10px;
+    font-family: 'Noto Serif', serif;
+    font-size: 70px;
+}
+.content {
+    background: #242939; 
+    padding: 50px;
+    text-align: center;
+    height: 60vh;
+}
+.section-info {
+    background-color: rgb(132, 83, 18);
+}
+.sections {
+    display: flex;
+    justify-content: space-between;
+    background: #242939;
+    padding: 50px;
+    height: 100vh;
+}
+.section {
+    width: 48%;
+    background: #242939;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    border: 3px solid #7a574c;
+    flex-direction: column;
+    align-items: center;
+}
+.judul-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #7a574c;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+}
+.buttons-container {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button {
+    background: #7a574c;
+    color: white;
+    border: 6px solid white;
+    padding: 15px 0;
+    margin: 10px 0;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 400px;
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.gunungan-container {
+    position: fixed;
+    bottom: 0;
+    width: 300px;
+    height: 400px;
+    transition: transform 1.5s ease-in-out;
+}
+.gunungan-left {
+    left: 50%;
+    transform: translateX(-30%) rotate(-30deg);
+}
+.gunungan-right {
+    right: 50%;
+    transform: translateX(30%) rotate(30deg);
+}
+.gunungan-container img {
+    width: 130%;
+    height: auto;
+}
+.audio-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#audioPlayer {
+    display: none;
+}
+
+#playPauseBtn {
+    background-color: #7a574c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#playPauseBtn:hover {
+    background-color: #5a3f35;
+}
+
+#progressBar {
+    width: 80%;
+    margin-top: 10px;
+    appearance: none;
+    height: 5px;
+    background: #242939;
+    border-radius: 5px;
+    cursor: pointer;
+}

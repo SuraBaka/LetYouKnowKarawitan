@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serayu</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Serayu</h1>
+    </div>
+    <div class="content">
+      <h1>NOTASI SERAYU :</h1>
+      <img
+        src="../Images/Notasi_serayu.webp"
+        alt="NotSerayu"
+        style="width: 30%; height: 60%"
+      />
+
+      <div class="audio-player">
+        <audio id="audioPlayer" controls preload="auto">
+          <source src="../instruments/Serayu.mp3" type="audio/mpeg" />
+          Browser Anda tidak mendukung pemutar audio.
+        </audio>
+        <button id="playButton">Play</button>
+      </div>
+    </div>
+    <script src="../scriptMusik.js"></script>
+  </body>
+</html>
