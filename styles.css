@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
 }
 .header {
-    background: url('/images/karawitan.jpg') no-repeat center center;
+    background: url('/Images/karawitan.jpg') no-repeat center center;
     background-size: cover;
     height: 33vh; 
     display: flex;
