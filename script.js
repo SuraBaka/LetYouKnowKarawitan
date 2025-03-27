@@ -17,7 +17,7 @@ buttonListAlat.forEach(name => {
     let button = document.createElement("a");
     button.textContent = name;
     button.className = "button";
-    button.href = `/LetYouKnowKarawitan/Screens/${name.toLowerCase().replace(/ /g, "-")}.html`;
+    button.href = `/Screens/${name.toLowerCase().replace(/ /g, "-")}.html`;
     buttonsContainerAlat.appendChild(button);
 });
 
@@ -28,7 +28,7 @@ buttonListNotasi.forEach(name => {
     let button = document.createElement("a");
     button.textContent = name;
     button.className = "button";
-    button.href = `/LetYouKnowKarawitan/Screens/${name.toLowerCase().replace(/ /g, "-")}.html`;
+    button.href = `/Screens/${name.toLowerCase().replace(/ /g, "-")}.html`;
     buttonsContainerNotasi.appendChild(button);
 });
 
